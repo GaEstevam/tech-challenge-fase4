@@ -1,0 +1,38 @@
+.notfound-container {
+    
+    min-height: 100vh;
+    font-family: var(--font-body);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: var(--spacing-medium);
+    text-align: center;
+}
+
+.notfound-title {
+    color: var(--color-text);
+    font-size: var(--font-size-large);
+    margin-bottom: var(--spacing-medium);
+}
+
+.notfound-message {
+    color: var(--color-dark-text);
+    font-size: var(--font-size-base);
+    margin-bottom: var(--spacing-medium);
+}
+
+.notfound-link {
+    display: inline-block;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    text-decoration: none;
+    padding: var(--spacing-small) var(--spacing-medium);
+    border-radius: var(--radius-small);
+    font-size: var(--font-size-base);
+    transition: background-color 0.2s;
+}
+
+.notfound-link:hover {
+    background-color: #0056b3; /* Se desejar, use uma outra variável ou adicione uma nova no tema */
+}

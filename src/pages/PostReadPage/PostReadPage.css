@@ -1,0 +1,71 @@
+.post-read-container {
+    padding: var(--spacing-medium);
+    background-color: var(--color-background);
+    min-height: 100vh;
+    font-family: var(--font-body);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post-read-content {
+    background: var(--color-white);
+    max-width: var(--max-width);
+    width: 100%;
+    padding: var(--spacing-large);
+    border-radius: var(--radius-base);
+    box-shadow: var(--shadow-card);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 120%;
+}
+
+.post-read-title {
+    font-size: var(--font-size-large);
+    margin-bottom: var(--spacing-medium);
+    color: var(--color-text);
+    text-align: center;
+}
+
+.post-read-body {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: var(--spacing-medium);
+    color: var(--color-dark-text);
+}
+
+.post-read-author {
+    font-style: italic;
+    text-align: right;
+    color: var(--color-light-text);
+}
+
+.edit-button {
+    background: orange;
+    color: var(--color-white);
+    padding: var(--spacing-small);
+    border: none;
+    font-size: var(--font-size-base);
+    border-radius: var(--radius-small);
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 2em;
+}
+
+.delete-button {
+    background: red;
+    color: var(--color-white);
+    padding: var(--spacing-small);
+    border: none;
+    font-size: var(--font-size-base);
+    border-radius: var(--radius-small);
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 2em;
+    margin-left: 2em;
+}
